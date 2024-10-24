@@ -1,0 +1,117 @@
+
+.grid-container{
+    display:grid;
+    grid-template: 
+        'main main main main main side side side side side';
+        
+}
+.center{
+    text-adlign: center;
+    display:flex;
+    justifdy-content: center;
+    align-items: center;
+}
+.main{
+    grid-area: main;
+}
+.side{
+    grid-area: side;
+}
+.grid-form-container{
+    display:grid;
+    grid-template: 
+        'stepper  form form form form  form form form form form form';
+        
+}
+.input{
+    padding:10px;
+}
+
+.stepper{
+    grid-area: stepper;
+    margin-todp:2%;
+    margin-left: 0;
+    position:fixeds;
+}
+.forms{
+    grid-area:form;
+    background-color: rgba(248, 250, 251, 0.1);
+    padding:10px;
+    overflow-y: scroll;
+    margin-left: 4%;
+}
+textarea {
+  resize: none;
+}
+textarea {
+  height: 20em;
+}
+
+.Roboto{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+.header-bar-side-item-1{
+    grid-area: item1;
+}
+.header-bar-side-item-2{
+    grid-area: item2;
+}
+.header-bar-side-item-3{
+    grid-area: item3;
+}
+.header-bar-side-item-4{
+    grid-area: item4;
+}
+.float-left{
+    float:left;
+}
+.background-green{
+    background-color:rgba(88, 133, 7, 0.9)
+}
+
+.border-opt-1{
+    border:1px solid rgba(88, 133, 7, 0.9)
+}
+.onhover-green:hover{
+   background-color:  rgba(88, 133, 7, 0.9);
+   color:white;
+}
+
+.float-right{
+    float:right;
+}
+.flag-button{
+    padding:5px;
+    background-color:rgba(89, 200, 55, 1);
+    border-radius:4px;
+    outline: none;
+    border:none;
+    margin:10px;
+}
+.border-1{
+    border:1px solid gray;
+    margin:10px 0px;
+    border-radius: 4px;
+}
+ .chat{
+    position: fixed;
+    width:auto;
+    bottom: 5%;
+    margin:100px;
+
+    right: 150px;
+    margin:3px;
+    opacity:1;
+  }
+  .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+input[type="file"] {
+    display: none;
+}
